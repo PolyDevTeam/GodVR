@@ -60,8 +60,6 @@ public class controller : MonoBehaviour {
             X.GetComponent<Renderer>().material.color = Color.white;
         }
 
-
-
         if (Input.GetAxis("Left Joystick Horizontale") != 0.0f || Input.GetAxis("Left Joystick Verticale") != 0.0f)
         {
             //Debug.Log(Input.GetAxis("Left Joystick Horizontale"));
