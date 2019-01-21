@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SavedCharacter version="1.0">
+    <model>
+        <file name="character/human/male/humanmale_hd.m2"/>
+        <CharDetails>
+            <skinColor value="10"/>
+            <faceType value="0"/>
+            <hairColor value="3"/>
+            <hairStyle value="11"/>
+            <facialHair value="6"/>
+            <eyeGlowType value="1"/>
+            <showUnderwear value="1"/>
+            <showEars value="1"/>
+            <showHair value="1"/>
+            <showFacialHair value="1"/>
+            <showFeet value="0"/>
+            <isDemonHunter value="0"/>
+            <DHTatooStyle value="0"/>
+            <DHTatooColor value="0"/>
+            <DHHornStyle value="0"/>
+            <DHBlindFolds value="0"/>
+        </CharDetails>
+    </model>
+    <equipment>
+        <item>
+            <slot value="4"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="0"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="3"/>
+            <id value="32390"/>
+            <displayId value="11837"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="6"/>
+            <id value="5812"/>
+            <displayId value="12694"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="1"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="12"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="5"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="2"/>
+            <id value="16800"/>
+            <displayId value="30587"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="7"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="8"/>
+            <id value="20717"/>
+            <displayId value="11842"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="13"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="9"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="10"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+        <item>
+            <slot value="11"/>
+            <id value="0"/>
+            <displayId value="-1"/>
+            <level value="0"/>
+        </item>
+    </equipment>
+</SavedCharacter>

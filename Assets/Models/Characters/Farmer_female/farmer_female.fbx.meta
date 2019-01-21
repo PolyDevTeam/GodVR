@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 0e1b98bf896ea224db24a0973b5f8b90
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: character/human/female/humanfemale_hd
+    100002: character/human/female/humanfemale_hd 1
+    100004: character/human/female/humanfemale_hd_bone_0
+    100006: character/human/female/humanfemale_hd_bone_1
+    100008: character/human/female/humanfemale_hd_bone_10
+    100010: character/human/female/humanfemale_hd_bone_100
+    100012: character/human/female/humanfemale_hd_bone_101
+    100014: character/human/female/humanfemale_hd_bone_102
+    100016: character/human/female/humanfemale_hd_bone_103
+    100018: character/human/female/humanfemale_hd_bone_104
+    100020: character/human/female/humanfemale_hd_bone_105
+    100022: character/human/female/humanfemale_hd_bone_106
+    100024: character/human/female/humanfemale_hd_bone_107
+    100026: character/human/female/humanfemale_hd_bone_108
+    100028: character/human/female/humanfemale_hd_bone_109
+    100030: character/human/female/humanfemale_hd_bone_11
+    100032: character/human/female/humanfemale_hd_bone_110
+    100034: character/human/female/humanfemale_hd_bone_111
+    100036: character/human/female/humanfemale_hd_bone_112
+    100038: character/human/female/humanfemale_hd_bone_113
+    100040: character/human/female/humanfemale_hd_bone_114
+    100042: character/human/female/humanfemale_hd_bone_115
+    100044: character/human/female/humanfemale_hd_bone_116
+    100046: character/human/female/humanfemale_hd_bone_117
+    100048: character/human/female/humanfemale_hd_bone_118
+    100050: character/human/female/humanfemale_hd_bone_119
+    100052: character/human/female/humanfemale_hd_bone_12
+    100054: character/human/female/humanfemale_hd_bone_120
+    100056: character/human/female/humanfemale_hd_bone_121
+    100058: character/human/female/humanfemale_hd_bone_122
+    100060: character/human/female/humanfemale_hd_bone_123
+    100062: character/human/female/humanfemale_hd_bone_124
+    100064: character/human/female/humanfemale_hd_bone_125
+    100066: character/human/female/humanfemale_hd_bone_126
+    100068: character/human/female/humanfemale_hd_bone_127
+    100070: character/human/female/humanfemale_hd_bone_128
+    100072: character/human/female/humanfemale_hd_bone_129
+    100074: character/human/female/humanfemale_hd_bone_13
+    100076: character/human/female/humanfemale_hd_bone_130
+    100078: character/human/female/humanfemale_hd_bone_131
+    100080: character/human/female/humanfemale_hd_bone_132
+    100082: character/human/female/humanfemale_hd_bone_133
+    100084: character/human/female/humanfemale_hd_bone_134
+    100086: character/human/female/humanfemale_hd_bone_135
+    100088: character/human/female/humanfemale_hd_bone_136
+    100090: character/human/female/humanfemale_hd_bone_137
+    100092: character/human/female/humanfemale_hd_bone_138
+    100094: character/human/female/humanfemale_hd_bone_139
+    100096: character/human/female/humanfemale_hd_bone_14
+    100098: character/human/female/humanfemale_hd_bone_140
+    100100: character/human/female/humanfemale_hd_bone_141
+    100102: character/human/female/humanfemale_hd_bone_142
+    100104: character/human/female/humanfemale_hd_bone_143
+    100106: character/human/female/humanfemale_hd_bone_144
+    100108: character/human/female/humanfemale_hd_bone_145
+    100110: character/human/female/humanfemale_hd_bone_146
+    100112: character/human/female/humanfemale_hd_bone_147
+    100114: character/human/female/humanfemale_hd_bone_148
+    100116: character/human/female/humanfemale_hd_bone_149
+    100118: character/human/female/humanfemale_hd_bone_15
+    100120: character/human/female/humanfemale_hd_bone_150
+    100122: character/human/female/humanfemale_hd_bone_151
+    100124: character/human/female/humanfemale_hd_bone_152
+    100126: character/human/female/humanfemale_hd_bone_153
+    100128: character/human/female/humanfemale_hd_bone_154
+    100130: character/human/female/humanfemale_hd_bone_155
+    100132: character/human/female/humanfemale_hd_bone_156
+    100134: character/human/female/humanfemale_hd_bone_157
+    100136: character/human/female/humanfemale_hd_bone_158
+    100138: character/human/female/humanfemale_hd_bone_159
+    100140: character/human/female/humanfemale_hd_bone_16
+    100142: character/human/female/humanfemale_hd_bone_160
+    100144: character/human/female/humanfemale_hd_bone_161
+    100146: character/human/female/humanfemale_hd_bone_162
+    100148: character/human/female/humanfemale_hd_bone_163
+    100150: character/human/female/humanfemale_hd_bone_164
+    100152: character/human/female/humanfemale_hd_bone_165
+    100154: character/human/female/humanfemale_hd_bone_166
+    100156: character/human/female/humanfemale_hd_bone_167
+    100158: character/human/female/humanfemale_hd_bone_168
+    100160: character/human/female/humanfemale_hd_bone_169
+    100162: character/human/female/humanfemale_hd_bone_17
+    100164: character/human/female/humanfemale_hd_bone_170
+    100166: character/human/female/humanfemale_hd_bone_171
+    100168: character/human/female/humanfemale_hd_bone_172
+    100170: character/human/female/humanfemale_hd_bone_173
+    100172: character/human/female/humanfemale_hd_bone_174
+    100174: character/human/female/humanfemale_hd_bone_175
+    100176: character/human/female/humanfemale_hd_bone_176
+    100178: character/human/female/humanfemale_hd_bone_177
+    100180: character/human/female/humanfemale_hd_bone_178
+    100182: character/human/female/humanfemale_hd_bone_179
+    100184: character/human/female/humanfemale_hd_bone_18
+    100186: character/human/female/humanfemale_hd_bone_180
+    100188: character/human/female/humanfemale_hd_bone_181
+    100190: character/human/female/humanfemale_hd_bone_182
+    100192: character/human/female/humanfemale_hd_bone_183
+    100194: character/human/female/humanfemale_hd_bone_184
+    100196: character/human/female/humanfemale_hd_bone_185
+    100198: character/human/female/humanfemale_hd_bone_186
+    100200: character/human/female/humanfemale_hd_bone_187
+    100202: character/human/female/humanfemale_hd_bone_188
+    100204: character/human/female/humanfemale_hd_bone_189
+    100206: character/human/female/humanfemale_hd_bone_19
+    100208: character/human/female/humanfemale_hd_bone_190
+    100210: character/human/female/humanfemale_hd_bone_191
+    100212: character/human/female/humanfemale_hd_bone_192
+    100214: character/human/female/humanfemale_hd_bone_193
+    100216: character/human/female/humanfemale_hd_bone_194
+    100218: character/human/female/humanfemale_hd_bone_195
+    100220: character/human/female/humanfemale_hd_bone_196
+    100222: character/human/female/humanfemale_hd_bone_197
+    100224: character/human/female/humanfemale_hd_bone_198
+    100226: character/human/female/humanfemale_hd_bone_199
+    100228: character/human/female/humanfemale_hd_bone_2
+    100230: character/human/female/humanfemale_hd_bone_20
+    100232: character/human/female/humanfemale_hd_bone_200
+    100234: character/human/female/humanfemale_hd_bone_201
+    100236: character/human/female/humanfemale_hd_bone_202
+    100238: character/human/female/humanfemale_hd_bone_21
+    100240: character/human/female/humanfemale_hd_bone_22
+    100242: character/human/female/humanfemale_hd_bone_23
+    100244: character/human/female/humanfemale_hd_bone_24
+    100246: character/human/female/humanfemale_hd_bone_25
+    100248: character/human/female/humanfemale_hd_bone_26
+    100250: character/human/female/humanfemale_hd_bone_27
+    100252: character/human/female/humanfemale_hd_bone_28
+    100254: character/human/female/humanfemale_hd_bone_29
+    100256: character/human/female/humanfemale_hd_bone_3
+    100258: character/human/female/humanfemale_hd_bone_30
+    100260: character/human/female/humanfemale_hd_bone_31
+    100262: character/human/female/humanfemale_hd_bone_32
+    100264: character/human/female/humanfemale_hd_bone_33
+    100266: character/human/female/humanfemale_hd_bone_34
+    100268: character/human/female/humanfemale_hd_bone_35
+    100270: character/human/female/humanfemale_hd_bone_36
+    100272: character/human/female/humanfemale_hd_bone_37
+    100274: character/human/female/humanfemale_hd_bone_38
+    100276: character/human/female/humanfemale_hd_bone_39
+    100278: character/human/female/humanfemale_hd_bone_4
+    100280: character/human/female/humanfemale_hd_bone_40
+    100282: character/human/female/humanfemale_hd_bone_41
+    100284: character/human/female/humanfemale_hd_bone_42
+    100286: character/human/female/humanfemale_hd_bone_43
+    100288: character/human/female/humanfemale_hd_bone_44
+    100290: character/human/female/humanfemale_hd_bone_45
+    100292: character/human/female/humanfemale_hd_bone_46
+    100294: character/human/female/humanfemale_hd_bone_47
+    100296: character/human/female/humanfemale_hd_bone_48
+    100298: character/human/female/humanfemale_hd_bone_49
+    100300: character/human/female/humanfemale_hd_bone_5
+    100302: character/human/female/humanfemale_hd_bone_50
+    100304: character/human/female/humanfemale_hd_bone_51
+    100306: character/human/female/humanfemale_hd_bone_52
+    100308: character/human/female/humanfemale_hd_bone_53
+    100310: character/human/female/humanfemale_hd_bone_54
+    100312: character/human/female/humanfemale_hd_bone_55
+    100314: character/human/female/humanfemale_hd_bone_56
+    100316: character/human/female/humanfemale_hd_bone_57
+    100318: character/human/female/humanfemale_hd_bone_58
+    100320: character/human/female/humanfemale_hd_bone_59
+    100322: character/human/female/humanfemale_hd_bone_6
+    100324: character/human/female/humanfemale_hd_bone_60
+    100326: character/human/female/humanfemale_hd_bone_61
+    100328: character/human/female/humanfemale_hd_bone_62
+    100330: character/human/female/humanfemale_hd_bone_63
+    100332: character/human/female/humanfemale_hd_bone_64
+    100334: character/human/female/humanfemale_hd_bone_65
+    100336: character/human/female/humanfemale_hd_bone_66
+    100338: character/human/female/humanfemale_hd_bone_67
+    100340: character/human/female/humanfemale_hd_bone_68
+    100342: character/human/female/humanfemale_hd_bone_69
+    100344: character/human/female/humanfemale_hd_bone_7
+    100346: character/human/female/humanfemale_hd_bone_70
+    100348: character/human/female/humanfemale_hd_bone_71
+    100350: character/human/female/humanfemale_hd_bone_72
+    100352: character/human/female/humanfemale_hd_bone_73
+    100354: character/human/female/humanfemale_hd_bone_74
+    100356: character/human/female/humanfemale_hd_bone_75
+    100358: character/human/female/humanfemale_hd_bone_76
+    100360: character/human/female/humanfemale_hd_bone_77
+    100362: character/human/female/humanfemale_hd_bone_78
+    100364: character/human/female/humanfemale_hd_bone_79
+    100366: character/human/female/humanfemale_hd_bone_8
+    100368: character/human/female/humanfemale_hd_bone_80
+    100370: character/human/female/humanfemale_hd_bone_81
+    100372: character/human/female/humanfemale_hd_bone_82
+    100374: character/human/female/humanfemale_hd_bone_83
+    100376: character/human/female/humanfemale_hd_bone_84
+    100378: character/human/female/humanfemale_hd_bone_85
+    100380: character/human/female/humanfemale_hd_bone_86
+    100382: character/human/female/humanfemale_hd_bone_87
+    100384: character/human/female/humanfemale_hd_bone_88
+    100386: character/human/female/humanfemale_hd_bone_89
+    100388: character/human/female/humanfemale_hd_bone_9
+    100390: character/human/female/humanfemale_hd_bone_90
+    100392: character/human/female/humanfemale_hd_bone_91
+    100394: character/human/female/humanfemale_hd_bone_92
+    100396: character/human/female/humanfemale_hd_bone_93
+    100398: character/human/female/humanfemale_hd_bone_94
+    100400: character/human/female/humanfemale_hd_bone_95
+    100402: character/human/female/humanfemale_hd_bone_96
+    100404: character/human/female/humanfemale_hd_bone_97
+    100406: character/human/female/humanfemale_hd_bone_98
+    100408: character/human/female/humanfemale_hd_bone_99
+    100410: //RootNode
+    400000: character/human/female/humanfemale_hd
+    400002: character/human/female/humanfemale_hd 1
+    400004: character/human/female/humanfemale_hd_bone_0
+    400006: character/human/female/humanfemale_hd_bone_1
+    400008: character/human/female/humanfemale_hd_bone_10
+    400010: character/human/female/humanfemale_hd_bone_100
+    400012: character/human/female/humanfemale_hd_bone_101
+    400014: character/human/female/humanfemale_hd_bone_102
+    400016: character/human/female/humanfemale_hd_bone_103
+    400018: character/human/female/humanfemale_hd_bone_104
+    400020: character/human/female/humanfemale_hd_bone_105
+    400022: character/human/female/humanfemale_hd_bone_106
+    400024: character/human/female/humanfemale_hd_bone_107
+    400026: character/human/female/humanfemale_hd_bone_108
+    400028: character/human/female/humanfemale_hd_bone_109
+    400030: character/human/female/humanfemale_hd_bone_11
+    400032: character/human/female/humanfemale_hd_bone_110
+    400034: character/human/female/humanfemale_hd_bone_111
+    400036: character/human/female/humanfemale_hd_bone_112
+    400038: character/human/female/humanfemale_hd_bone_113
+    400040: character/human/female/humanfemale_hd_bone_114
+    400042: character/human/female/humanfemale_hd_bone_115
+    400044: character/human/female/humanfemale_hd_bone_116
+    400046: character/human/female/humanfemale_hd_bone_117
+    400048: character/human/female/humanfemale_hd_bone_118
+    400050: character/human/female/humanfemale_hd_bone_119
+    400052: character/human/female/humanfemale_hd_bone_12
+    400054: character/human/female/humanfemale_hd_bone_120
+    400056: character/human/female/humanfemale_hd_bone_121
+    400058: character/human/female/humanfemale_hd_bone_122
+    400060: character/human/female/humanfemale_hd_bone_123
+    400062: character/human/female/humanfemale_hd_bone_124
+    400064: character/human/female/humanfemale_hd_bone_125
+    400066: character/human/female/humanfemale_hd_bone_126
+    400068: character/human/female/humanfemale_hd_bone_127
+    400070: character/human/female/humanfemale_hd_bone_128
+    400072: character/human/female/humanfemale_hd_bone_129
+    400074: character/human/female/humanfemale_hd_bone_13
+    400076: character/human/female/humanfemale_hd_bone_130
+    400078: character/human/female/humanfemale_hd_bone_131
+    400080: character/human/female/humanfemale_hd_bone_132
+    400082: character/human/female/humanfemale_hd_bone_133
+    400084: character/human/female/humanfemale_hd_bone_134
+    400086: character/human/female/humanfemale_hd_bone_135
+    400088: character/human/female/humanfemale_hd_bone_136
+    400090: character/human/female/humanfemale_hd_bone_137
+    400092: character/human/female/humanfemale_hd_bone_138
+    400094: character/human/female/humanfemale_hd_bone_139
+    400096: character/human/female/humanfemale_hd_bone_14
+    400098: character/human/female/humanfemale_hd_bone_140
+    400100: character/human/female/humanfemale_hd_bone_141
+    400102: character/human/female/humanfemale_hd_bone_142
+    400104: character/human/female/humanfemale_hd_bone_143
+    400106: character/human/female/humanfemale_hd_bone_144
+    400108: character/human/female/humanfemale_hd_bone_145
+    400110: character/human/female/humanfemale_hd_bone_146
+    400112: character/human/female/humanfemale_hd_bone_147
+    400114: character/human/female/humanfemale_hd_bone_148
+    400116: character/human/female/humanfemale_hd_bone_149
+    400118: character/human/female/humanfemale_hd_bone_15
+    400120: character/human/female/humanfemale_hd_bone_150
+    400122: character/human/female/humanfemale_hd_bone_151
+    400124: character/human/female/humanfemale_hd_bone_152
+    400126: character/human/female/humanfemale_hd_bone_153
+    400128: character/human/female/humanfemale_hd_bone_154
+    400130: character/human/female/humanfemale_hd_bone_155
+    400132: character/human/female/humanfemale_hd_bone_156
+    400134: character/human/female/humanfemale_hd_bone_157
+    400136: character/human/female/humanfemale_hd_bone_158
+    400138: character/human/female/humanfemale_hd_bone_159
+    400140: character/human/female/humanfemale_hd_bone_16
+    400142: character/human/female/humanfemale_hd_bone_160
+    400144: character/human/female/humanfemale_hd_bone_161
+    400146: character/human/female/humanfemale_hd_bone_162
+    400148: character/human/female/humanfemale_hd_bone_163
+    400150: character/human/female/humanfemale_hd_bone_164
+    400152: character/human/female/humanfemale_hd_bone_165
+    400154: character/human/female/humanfemale_hd_bone_166
+    400156: character/human/female/humanfemale_hd_bone_167
+    400158: character/human/female/humanfemale_hd_bone_168
+    400160: character/human/female/humanfemale_hd_bone_169
+    400162: character/human/female/humanfemale_hd_bone_17
+    400164: character/human/female/humanfemale_hd_bone_170
+    400166: character/human/female/humanfemale_hd_bone_171
+    400168: character/human/female/humanfemale_hd_bone_172
+    400170: character/human/female/humanfemale_hd_bone_173
+    400172: character/human/female/humanfemale_hd_bone_174
+    400174: character/human/female/humanfemale_hd_bone_175
+    400176: character/human/female/humanfemale_hd_bone_176
+    400178: character/human/female/humanfemale_hd_bone_177
+    400180: character/human/female/humanfemale_hd_bone_178
+    400182: character/human/female/humanfemale_hd_bone_179
+    400184: character/human/female/humanfemale_hd_bone_18
+    400186: character/human/female/humanfemale_hd_bone_180
+    400188: character/human/female/humanfemale_hd_bone_181
+    400190: character/human/female/humanfemale_hd_bone_182
+    400192: character/human/female/humanfemale_hd_bone_183
+    400194: character/human/female/humanfemale_hd_bone_184
+    400196: character/human/female/humanfemale_hd_bone_185
+    400198: character/human/female/humanfemale_hd_bone_186
+    400200: character/human/female/humanfemale_hd_bone_187
+    400202: character/human/female/humanfemale_hd_bone_188
+    400204: character/human/female/humanfemale_hd_bone_189
+    400206: character/human/female/humanfemale_hd_bone_19
+    400208: character/human/female/humanfemale_hd_bone_190
+    400210: character/human/female/humanfemale_hd_bone_191
+    400212: character/human/female/humanfemale_hd_bone_192
+    400214: character/human/female/humanfemale_hd_bone_193
+    400216: character/human/female/humanfemale_hd_bone_194
+    400218: character/human/female/humanfemale_hd_bone_195
+    400220: character/human/female/humanfemale_hd_bone_196
+    400222: character/human/female/humanfemale_hd_bone_197
+    400224: character/human/female/humanfemale_hd_bone_198
+    400226: character/human/female/humanfemale_hd_bone_199
+    400228: character/human/female/humanfemale_hd_bone_2
+    400230: character/human/female/humanfemale_hd_bone_20
+    400232: character/human/female/humanfemale_hd_bone_200
+    400234: character/human/female/humanfemale_hd_bone_201
+    400236: character/human/female/humanfemale_hd_bone_202
+    400238: character/human/female/humanfemale_hd_bone_21
+    400240: character/human/female/humanfemale_hd_bone_22
+    400242: character/human/female/humanfemale_hd_bone_23
+    400244: character/human/female/humanfemale_hd_bone_24
+    400246: character/human/female/humanfemale_hd_bone_25
+    400248: character/human/female/humanfemale_hd_bone_26
+    400250: character/human/female/humanfemale_hd_bone_27
+    400252: character/human/female/humanfemale_hd_bone_28
+    400254: character/human/female/humanfemale_hd_bone_29
+    400256: character/human/female/humanfemale_hd_bone_3
+    400258: character/human/female/humanfemale_hd_bone_30
+    400260: character/human/female/humanfemale_hd_bone_31
+    400262: character/human/female/humanfemale_hd_bone_32
+    400264: character/human/female/humanfemale_hd_bone_33
+    400266: character/human/female/humanfemale_hd_bone_34
+    400268: character/human/female/humanfemale_hd_bone_35
+    400270: character/human/female/humanfemale_hd_bone_36
+    400272: character/human/female/humanfemale_hd_bone_37
+    400274: character/human/female/humanfemale_hd_bone_38
+    400276: character/human/female/humanfemale_hd_bone_39
+    400278: character/human/female/humanfemale_hd_bone_4
+    400280: character/human/female/humanfemale_hd_bone_40
+    400282: character/human/female/humanfemale_hd_bone_41
+    400284: character/human/female/humanfemale_hd_bone_42
+    400286: character/human/female/humanfemale_hd_bone_43
+    400288: character/human/female/humanfemale_hd_bone_44
+    400290: character/human/female/humanfemale_hd_bone_45
+    400292: character/human/female/humanfemale_hd_bone_46
+    400294: character/human/female/humanfemale_hd_bone_47
+    400296: character/human/female/humanfemale_hd_bone_48
+    400298: character/human/female/humanfemale_hd_bone_49
+    400300: character/human/female/humanfemale_hd_bone_5
+    400302: character/human/female/humanfemale_hd_bone_50
+    400304: character/human/female/humanfemale_hd_bone_51
+    400306: character/human/female/humanfemale_hd_bone_52
+    400308: character/human/female/humanfemale_hd_bone_53
+    400310: character/human/female/humanfemale_hd_bone_54
+    400312: character/human/female/humanfemale_hd_bone_55
+    400314: character/human/female/humanfemale_hd_bone_56
+    400316: character/human/female/humanfemale_hd_bone_57
+    400318: character/human/female/humanfemale_hd_bone_58
+    400320: character/human/female/humanfemale_hd_bone_59
+    400322: character/human/female/humanfemale_hd_bone_6
+    400324: character/human/female/humanfemale_hd_bone_60
+    400326: character/human/female/humanfemale_hd_bone_61
+    400328: character/human/female/humanfemale_hd_bone_62
+    400330: character/human/female/humanfemale_hd_bone_63
+    400332: character/human/female/humanfemale_hd_bone_64
+    400334: character/human/female/humanfemale_hd_bone_65
+    400336: character/human/female/humanfemale_hd_bone_66
+    400338: character/human/female/humanfemale_hd_bone_67
+    400340: character/human/female/humanfemale_hd_bone_68
+    400342: character/human/female/humanfemale_hd_bone_69
+    400344: character/human/female/humanfemale_hd_bone_7
+    400346: character/human/female/humanfemale_hd_bone_70
+    400348: character/human/female/humanfemale_hd_bone_71
+    400350: character/human/female/humanfemale_hd_bone_72
+    400352: character/human/female/humanfemale_hd_bone_73
+    400354: character/human/female/humanfemale_hd_bone_74
+    400356: character/human/female/humanfemale_hd_bone_75
+    400358: character/human/female/humanfemale_hd_bone_76
+    400360: character/human/female/humanfemale_hd_bone_77
+    400362: character/human/female/humanfemale_hd_bone_78
+    400364: character/human/female/humanfemale_hd_bone_79
+    400366: character/human/female/humanfemale_hd_bone_8
+    400368: character/human/female/humanfemale_hd_bone_80
+    400370: character/human/female/humanfemale_hd_bone_81
+    400372: character/human/female/humanfemale_hd_bone_82
+    400374: character/human/female/humanfemale_hd_bone_83
+    400376: character/human/female/humanfemale_hd_bone_84
+    400378: character/human/female/humanfemale_hd_bone_85
+    400380: character/human/female/humanfemale_hd_bone_86
+    400382: character/human/female/humanfemale_hd_bone_87
+    400384: character/human/female/humanfemale_hd_bone_88
+    400386: character/human/female/humanfemale_hd_bone_89
+    400388: character/human/female/humanfemale_hd_bone_9
+    400390: character/human/female/humanfemale_hd_bone_90
+    400392: character/human/female/humanfemale_hd_bone_91
+    400394: character/human/female/humanfemale_hd_bone_92
+    400396: character/human/female/humanfemale_hd_bone_93
+    400398: character/human/female/humanfemale_hd_bone_94
+    400400: character/human/female/humanfemale_hd_bone_95
+    400402: character/human/female/humanfemale_hd_bone_96
+    400404: character/human/female/humanfemale_hd_bone_97
+    400406: character/human/female/humanfemale_hd_bone_98
+    400408: character/human/female/humanfemale_hd_bone_99
+    400410: //RootNode
+    2100000: character_human_female_humanfemale_hd_2
+    2100002: character_human_female_humanfemale_hd_4
+    2100004: character_human_female_humanfemale_hd_7
+    2100006: character_human_female_humanfemale_hd_9
+    2100008: character_human_female_humanfemale_hd_13
+    2100010: character_human_female_humanfemale_hd_15
+    2100012: character_human_female_humanfemale_hd_17
+    2100014: character_human_female_humanfemale_hd_20
+    2100016: character_human_female_humanfemale_hd_27
+    2100018: character_human_female_humanfemale_hd_35
+    2100020: character_human_female_humanfemale_hd_37
+    2100022: character_human_female_humanfemale_hd_59
+    2100024: character_human_female_humanfemale_hd_72
+    4300000: character/human/female/humanfemale_hd
+    7400000: Stand [0]
+    7400002: Walk [1]
+    7400004: Run [2]
+    7400006: ReadyFist1H [14]
+    7400008: Loot [31]
+    7400010: Death [34]
+    7400012: AttackFist1HOff [49]
+    7400014: UseStandingStart [64]
+    7400016: UseStandingEnd [68]
+    7400018: Kick [82]
+    7400020: Jump [89]
+    7400022: Fall [88]
+    7400024: JumpStart [90]
+    7400026: JumpEnd [91]
+    7400028: EmoteCry [125]
+    7400030: EmoteChicken [126]
+    7400032: EmoteDance [148]
+    7400034: Cower [158]
+    7400036: Strangulate [161]
+    7400038: Meditate [194]
+    7400040: Roll [203]
+    7400042: RollEnd [204]
+    7400044: RollStart [205]
+    9500000: //RootNode
+    13700000: character/human/female/humanfemale_hd
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_13
+    second: {fileID: 2100000, guid: 0746120b82563544f8f29cfe62e8037d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_15
+    second: {fileID: 2100000, guid: e6c63bee2bc44a246959297f089e7d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_17
+    second: {fileID: 2100000, guid: 649f85dcbb68b264998aea220ff3ce9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_2
+    second: {fileID: 2100000, guid: fc8cd3ab4c3416c438d5f102425b395f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_20
+    second: {fileID: 2100000, guid: cbb0f865086852b4aacdbab4da741595, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_27
+    second: {fileID: 2100000, guid: e946a3e697efb5c4b85d77d8aa46504f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_35
+    second: {fileID: 2100000, guid: e2e47417d91cac04a8ed88caa51ef8e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_37
+    second: {fileID: 2100000, guid: e2aafff35b3d3b04cbbfbcce1a3cb82d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_4
+    second: {fileID: 2100000, guid: 2cfc0f24e0f9da94a9ede99d2c9715a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_59
+    second: {fileID: 2100000, guid: 9dcf4b5a0e8e0c74381dddb66ca6d74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_7
+    second: {fileID: 2100000, guid: c75eed36d4371e24dbc2360aa2c0f78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_72
+    second: {fileID: 2100000, guid: b137ac0964ee4cb43a679028b0504207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: character_human_female_humanfemale_hd_9
+    second: {fileID: 2100000, guid: 53c5a5a504a532048ab397c7d841673b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2800000, guid: 14779ed98a0afde42a9e608b8f529c53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair00_00_hd
+    second: {fileID: 2800000, guid: e8db3ca8f2e08544e96c0e873d59169a, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand [0]
+      takeName: Stand [0]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk [1]
+      takeName: Walk [1]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run [2]
+      takeName: Run [2]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ReadyFist1H [14]
+      takeName: ReadyFist1H [14]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Loot [31]
+      takeName: Loot [31]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death [34]
+      takeName: Death [34]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackFist1HOff [49]
+      takeName: AttackFist1HOff [49]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: UseStandingStart [64]
+      takeName: UseStandingStart [64]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: UseStandingEnd [68]
+      takeName: UseStandingEnd [68]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kick [82]
+      takeName: Kick [82]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump [89]
+      takeName: Jump [89]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fall [88]
+      takeName: Fall [88]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpStart [90]
+      takeName: JumpStart [90]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpEnd [91]
+      takeName: JumpEnd [91]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EmoteCry [125]
+      takeName: EmoteCry [125]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EmoteChicken [126]
+      takeName: EmoteChicken [126]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EmoteDance [148]
+      takeName: EmoteDance [148]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cower [158]
+      takeName: Cower [158]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strangulate [161]
+      takeName: Strangulate [161]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Meditate [194]
+      takeName: Meditate [194]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roll [203]
+      takeName: Roll [203]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RollEnd [204]
+      takeName: RollEnd [204]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RollStart [205]
+      takeName: RollStart [205]
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

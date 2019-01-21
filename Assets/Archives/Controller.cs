@@ -19,7 +19,6 @@ public class Controller : MonoBehaviour {
     void Start () {
         initPosLeft = leftStick.transform.position;
         initPosRight = rightStick.transform.position;
-
     }
 
     // Update is called once per frame
@@ -75,6 +74,5 @@ public class Controller : MonoBehaviour {
             Vector3 newPos = new Vector3(initPosRight.x + Input.GetAxis("Right Joystick Horizontale"), initPosRight.y + Input.GetAxis("Right Joystick Verticale"), initPosRight.z);
             rightStick.transform.position = newPos;
         }
-
     }
 }
