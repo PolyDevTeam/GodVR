@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NPC : MonoBehaviour
+public abstract class NPC : MonoBehaviour
 {
     enum AttackTypeVal
     {
@@ -12,12 +12,16 @@ public class NPC : MonoBehaviour
         FIST_OFF = 3
     };
 
+    public class SpeedValues
+    {
+        public static float WALK = 0.5f;
+        public static float RUN = 1.0f;
+    }
+
     protected enum Tasks
     {
         MOVE_RANDOM = 1,
         DANCE = 2,
-        MEDITATE = 3,
-        CHICKEN = 4,
     }
 
     protected Animator anim;
@@ -29,6 +33,7 @@ public class NPC : MonoBehaviour
     private bool DoDance;
     private bool DoCry;
     private bool DoStrangulate;
+    private bool DoStanding;
 
     protected bool DoLoot;
     protected bool DoMeditate;
@@ -37,7 +42,12 @@ public class NPC : MonoBehaviour
     Vector3 startPosition;
 
     // Target point for debug purpose
-    // protected static GameObject prefab;
+    protected static GameObject prefab;
+
+    private bool move = false;
+    private Vector3 targetPoint;
+    private Quaternion targetRotation;
+    protected GameObject target;
 
     // Start is called before the first frame update
     protected void Start()
@@ -45,10 +55,10 @@ public class NPC : MonoBehaviour
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
 
-       // if(NPC.prefab == null)
-       // {
-       //     prefab = GameObject.CreatePrimitive(PrimitiveType.Cube);
-       // }
+       if(NPC.prefab == null)
+       {
+          prefab = GameObject.CreatePrimitive(PrimitiveType.Cube);
+       }
 
         startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
@@ -59,11 +69,14 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
+        // print("Closest Object is " + GetClosestObject("NPC").name);
+
         updateAnimationVariables();
 
         if (transform.position == agent.destination)
         {
             setSpeed(0.0f);
+            move = false;
         }
 
         if (Input.GetKeyDown(KeyCode.W))
@@ -84,12 +97,89 @@ public class NPC : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
-            chicken();
+            Chicken();
         }
         else if (Input.GetKeyDown(KeyCode.M))
         {
-            medidate();
+            Medidate();
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            GameObject opponentObject = GetClosestObject("NPC");
+            target = opponentObject;
+            //Instantiate(NPC.prefab, target.transform.position, target.transform.rotation);
+        }
+
+        if (target != null)
+        {
+            //find the vector pointing from our position to the target
+            targetPoint = (target.transform.position - transform.position).normalized;
+
+            //create the rotation we need to be in to look at the target
+            targetRotation = Quaternion.LookRotation(targetPoint);
+            targetRotation *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
+
+            //rotate us over time according to speed until we are in the required rotation
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10.0f);
+
+            Transform targetPosition = target.transform;
+
+            setSpeed(SpeedValues.RUN);
+            agent.destination = targetPosition.position;
+            agent.speed = Speed;
+
+            NPC opponent = target.GetComponent<NPC>();
+            
+            if(Vector3.Distance(transform.position, target.transform.position) <= 1.0f)
+            {
+                setSpeed(0.0f);
+                Fight(opponent);
+            }
+        }
+
+        if(move)
+        {
+            targetRotation = Quaternion.LookRotation(agent.destination);
+            targetRotation *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
+
+            //rotate us over time according to speed until we are in the required rotation
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10.0f);
+
+            agent.updateRotation = false;
+            agent.speed = SpeedValues.RUN;
+            setSpeed(agent.speed);
+        }
+    }
+
+    public GameObject GetClosestObject(string tag)
+    {
+        float radius = 100.0f;
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+        GameObject closestObject = null;
+
+        foreach (GameObject obj in objectsWithTag)
+        {
+            // Skip itself
+            if(obj.transform.position == this.transform.position)
+            {
+                continue;
+            }
+
+            if (closestObject == null)
+            {
+                closestObject = obj;
+            }
+
+            // Compares distances
+            if (Vector3.Distance(transform.position, obj.transform.position) <= Vector3.Distance(transform.position, closestObject.transform.position))
+            {
+                closestObject = obj;
+            }
+        }
+
+        return closestObject;
     }
 
     public int getLife()
@@ -137,6 +227,7 @@ public class NPC : MonoBehaviour
         DoDance = anim.GetBool("DoDance");
         DoCry = anim.GetBool("DoCry");
         DoStrangulate = anim.GetBool("DoStrangulate");
+        DoStanding = anim.GetBool("DoStanding");
     }
 
     protected void Live()
@@ -147,40 +238,51 @@ public class NPC : MonoBehaviour
         }
     }
 
-    public void moveRandomPoint()
+    public void Loot()
     {
-        Debug.Log("Move to a random point");
-        // Move to a random position
-        //float roamRadius = 10.0f;
-
-        //Vector3 randomDirection = Random.insideUnitSphere * roamRadius;
-        //randomDirection += startPosition;
-
-        //NavMeshHit hit;
-        //NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
-        //Vector3 finalPosition = hit.position;
-        //agent.destination = finalPosition;
-        //// Instantiate(NPC.prefab, finalPosition, Quaternion.identity);
-
-        //agent.speed = 1.0f;
-        //setSpeed(agent.speed);
+        DoLoot = true;
+        anim.SetBool("DoLoot", DoLoot);
     }
 
-    public void dance()
+    protected void Standing()
+    {
+        DoStanding = true;
+        anim.SetBool("DoStanding", DoStanding);
+    }
+
+    public void MoveRandomPoint()
+    {
+        Debug.Log("Move to a random point");
+
+        // Move to a random position
+        float roamRadius = 10.0f;
+        Vector3 randomDirection = Random.insideUnitSphere * roamRadius;
+        randomDirection += startPosition;
+
+        NavMeshHit hit;
+        NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
+        Vector3 finalPosition = hit.position;
+        agent.destination = finalPosition;
+        targetPoint = agent.destination;
+        move = true;
+        Instantiate(NPC.prefab, finalPosition, Quaternion.identity);
+    }
+
+    public void Dance()
     {
         Debug.Log("Dance until your dead");
         DoDance = !DoDance;
         anim.SetBool("DoDance", DoDance);
     }
     
-    public void medidate()
+    public void Medidate()
     {
         Debug.Log("ZEEEEEEEEEEN");
         DoMeditate = !DoMeditate;
         anim.SetBool("DoMeditate", DoMeditate);
     }
 
-    public void chicken()
+    public void Chicken()
     {
         Debug.Log("Chicken little is in da place !");
         DoChiken = !DoChiken;
@@ -208,28 +310,23 @@ public class NPC : MonoBehaviour
         anim.SetBool("DoStrangulate", DoStrangulate);
     }
 
-    protected void ChoiceTask()
-    {
-        Tasks task = (Tasks) Random.Range(1, Tasks.GetNames(typeof(Tasks)).Length + 1);
+    abstract protected void ChoiceTask();
 
-        switch(task)
-        {
-            case Tasks.MOVE_RANDOM:
-                moveRandomPoint();
-                break;
-            case Tasks.DANCE:
-                dance();
-                break;
-            case Tasks.MEDITATE:
-                medidate();
-                break;
-            case Tasks.CHICKEN:
-                chicken();
-                break;
-            default:
-                Debug.Log("Unknown tasks");
-                break;
-        }
+    public void setTarget(NPC target)
+    {
+        this.target = (GameObject) target.gameObject;
     }
 
+    public void Fight(NPC opponent)
+    {
+        Debug.Log("FIGHT !!");
+        setAttackType(Random.Range(1, 4));
+        opponent.setTarget(this);
+    }
+
+    public void MovePosition(Vector3 position, Quaternion rotation)
+    {
+        agent.destination = position;
+        agent.updateRotation = true;
+    }
 }
