@@ -17,8 +17,8 @@ public class HavePV : MonoBehaviour
             Debug.Log(pv);
             if (pv == 0)
             {
-                this.GetComponent<Civil>().setLife(0);
-                //Destroy(this.gameObject);
+                //this.GetComponent<Civil>().setLife(0);
+                Destroy(this.gameObject);
             }
         }
     }
