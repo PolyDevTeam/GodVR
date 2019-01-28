@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a00bfbe23c58ffe47b7af332801bb15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.5
   sensitivity: 1
   cam: {fileID: 4675333086887528346}
 --- !u!1 &4675333086887528346
