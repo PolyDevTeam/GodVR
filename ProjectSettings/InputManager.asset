@@ -134,7 +134,7 @@ InputManager:
     axis: 4
     joyNum: 0
   - serializedVersion: 3
-    m_Name: ' D-Pad X Axis'
+    m_Name: DPadX
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -145,12 +145,12 @@ InputManager:
     dead: 0
     sensitivity: 1
     snap: 0
-    invert: 1
+    invert: 0
     type: 2
     axis: 5
     joyNum: 0
   - serializedVersion: 3
-    m_Name: ' D-Pad Y Axis'
+    m_Name: DPadY
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
