@@ -42,7 +42,7 @@ public abstract class NPC : MonoBehaviour
     Vector3 startPosition;
 
     // Target point for debug purpose
-    protected static GameObject prefab;
+    // protected static GameObject prefab;
 
     private bool move = false;
     private Vector3 targetPoint;
@@ -55,10 +55,10 @@ public abstract class NPC : MonoBehaviour
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
 
-       if(NPC.prefab == null)
+       /*if(NPC.prefab == null)
        {
           prefab = GameObject.CreatePrimitive(PrimitiveType.Cube);
-       }
+       }*/
 
         startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
@@ -69,46 +69,12 @@ public abstract class NPC : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        // print("Closest Object is " + GetClosestObject("NPC").name);
-
         updateAnimationVariables();
 
         if (transform.position == agent.destination)
         {
             setSpeed(0.0f);
             move = false;
-        }
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            setSpeed(1.0f);
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            setLife(0);
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            setSpeed(0.0f);
-        }
-        else if (Input.GetKeyDown(KeyCode.K))
-        {
-            setAttackType(Random.Range(1, 4));
-        }
-        else if (Input.GetKeyDown(KeyCode.C))
-        {
-            Chicken();
-        }
-        else if (Input.GetKeyDown(KeyCode.M))
-        {
-            Medidate();
-        }
-
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            GameObject opponentObject = GetClosestObject("NPC");
-            target = opponentObject;
-            //Instantiate(NPC.prefab, target.transform.position, target.transform.rotation);
         }
 
         if (target != null)
@@ -265,7 +231,7 @@ public abstract class NPC : MonoBehaviour
         agent.destination = finalPosition;
         targetPoint = agent.destination;
         move = true;
-        Instantiate(NPC.prefab, finalPosition, Quaternion.identity);
+        // Instantiate(NPC.prefab, finalPosition, Quaternion.identity);
     }
 
     public void Dance()
