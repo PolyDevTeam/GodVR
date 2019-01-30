@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class HavePV : MonoBehaviour
 {
-
-    public int pv = 3;
+    public NPC npc;
 
     void OnCollisionEnter(Collision collisionInfo)
     {
-        Debug.Log(collisionInfo.gameObject.name);
+        int life = npc.getLife();
 
         if (collisionInfo.gameObject.name.Contains("Fire"))
         {
-            pv--;
-            Debug.Log(pv);
-            if (pv == 0)
-            {
-                //this.GetComponent<Civil>().setLife(0);
-                Destroy(this.gameObject);
-            }
+            life = (life >= 0 ? life - 50 : 0);
+            npc.setLife(life);
+        }
+        else if(collisionInfo.gameObject.name.Contains("Meteor"))
+        {
+            life = 0;
+            npc.setLife(0);
         }
     }
 }

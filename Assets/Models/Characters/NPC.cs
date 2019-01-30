@@ -62,7 +62,7 @@ public abstract class NPC : MonoBehaviour
 
         startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
-        InvokeRepeating("ChoiceTask", 0.3f, 30.0f);
+        //InvokeRepeating("ChoiceTask", 2.0f, 30.0f);
         InvokeRepeating("Live", 60.0f, 1.0f);
     }
 
@@ -70,6 +70,12 @@ public abstract class NPC : MonoBehaviour
     protected void Update()
     {
         updateAnimationVariables();
+
+        if (Life == 0)
+        {
+            setSpeed(0.0f);
+            return;
+        }
 
         if (transform.position == agent.destination)
         {

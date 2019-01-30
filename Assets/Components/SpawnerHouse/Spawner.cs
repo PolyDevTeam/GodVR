@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     private GameObject civilMaleNPC;
     private GameObject civilFemaleNPC;
 
-    private const float RANGE = 10.0f;
+    private const float RANGE = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +58,6 @@ public class Spawner : MonoBehaviour
             //  Do Stuff
             Debug.Log("2sec passed");
             //GameObject entity = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            //entity.AddComponent<Rigidbody>();
 
             Vector3 newPos = this.transform.position;
             newPos.x += Random.Range(-RANGE, RANGE);
@@ -66,7 +65,6 @@ public class Spawner : MonoBehaviour
             newPos.z += Random.Range(-RANGE, RANGE);
 
             Quaternion rotation = Quaternion.identity;
-            rotation *= Quaternion.Euler(0, 90, 0);
 
             Instantiate(entity, newPos, rotation);
         }
