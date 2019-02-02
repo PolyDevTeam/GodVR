@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1609024779}
   - component: {fileID: 1609024781}
   - component: {fileID: 1609024782}
+  - component: {fileID: 31832862}
+  - component: {fileID: 3655425296110597964}
   m_Layer: 0
   m_Name: farmer_male
   m_TagString: NPC
@@ -27,9 +29,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609024776}
-  m_LocalRotation: {x: -0, y: -0.810249, z: -0, w: 0.58608586}
+  m_LocalRotation: {x: 0, y: -0.8102514, z: 0, w: 0.5860825}
   m_LocalPosition: {x: 2.76, y: 0, z: 1.96}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 803914309960397162}
   - {fileID: 9197702837801231777}
@@ -63,7 +65,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609024776}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -105,6 +107,32 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &31832862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609024776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 1, z: 0.4}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &3655425296110597964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609024776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f522613cecc9c4cbe02fd5fafc53f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 1609024781}
 --- !u!1 &14103900135991141
 GameObject:
   m_ObjectHideFlags: 0

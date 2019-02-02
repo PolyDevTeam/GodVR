@@ -11,6 +11,7 @@ public class ChangeSpell : MonoBehaviour
     public GameObject spell1;
 
     public GameObject spellLauncher;
+    public GameObject viseur;
 
     private List<GameObject> spellList;
 
@@ -39,11 +40,14 @@ public class ChangeSpell : MonoBehaviour
             if (spellList[i % spellList.Count].name.Contains("Fire"))
             {
                 spellText.GetComponent<Text>().text = "Boule de feu";
+                viseur.GetComponent<Renderer>().material.color = Color.white;
+
             }
 
             if (spellList[i % spellList.Count].name.Contains("Meteor"))
             {
                 spellText.GetComponent<Text>().text = "Météorite";
+                viseur.GetComponent<Renderer>().material.color = Color.clear;
             }
 
             once = false;

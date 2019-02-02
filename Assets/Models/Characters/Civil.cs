@@ -33,8 +33,8 @@ public class Civil : NPC
     {
         base.Standing();
         // TODO : Mettre un autre prefab
-        GameObject TreePrefab = Resources.Load("Prefabs/Tree") as GameObject;
-        Instantiate(TreePrefab, transform.position, transform.rotation);
+        //GameObject TreePrefab = Resources.Load("Prefabs/Tree") as GameObject;
+        //Instantiate(TreePrefab, transform.position, transform.rotation);
     }
 
     public void Fight()

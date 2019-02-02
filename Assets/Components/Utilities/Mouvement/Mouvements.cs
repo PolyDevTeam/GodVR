@@ -24,11 +24,13 @@ public class Mouvements : MonoBehaviour
             this.gameObject.transform.Translate(Input.GetAxis("Left Joystick Horizontale") * speed, 0, Input.GetAxis("Left Joystick Verticale") * speed);
         }
 
-        if (Input.GetAxis("Right Joystick Horizontale") != 0.0f || Input.GetAxis("Right Joystick Verticale") != 0.0f)
-        {
-            //Debug.Log(Input.GetAxis("Left Joystick Horizontale"));
-            this.transform.Rotate(0, Input.GetAxis("Right Joystick Horizontale") * sensitivity, 0);
-            cam.transform.Rotate(Input.GetAxis("Right Joystick Verticale") * sensitivity, 0, 0);
-        }
+        //if (Input.GetAxis("Right Joystick Horizontale") != 0.0f || Input.GetAxis("Right Joystick Verticale") != 0.0f)
+        //{
+        //    //Debug.Log(Input.GetAxis("Left Joystick Horizontale"));
+        //    this.transform.Rotate(0, Input.GetAxis("Right Joystick Horizontale") * sensitivity, 0);
+        //    cam.transform.Rotate(Input.GetAxis("Right Joystick Verticale") * sensitivity, 0, 0);
+        //}
+
+        this.transform.rotation.Set(0, cam.transform.rotation.y * sensitivity, 0, 1);
     }
 }
