@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*! 
+ *  @brief     Script pour realiser le mouvement via le stick gauche de la manette et la rotation de la camera via le regard
+ *  @author    Clement STAMEGNA
+ */
 public class Mouvements : MonoBehaviour
 {
-    public float speed = 1f;
-    public float sensitivity = 1f;
+    public float speed = 1f; /*!< vitesse de deplacement */
+    public float sensitivity = 1f; /*!< sensibilite du regard */
 
-    public GameObject cam;
+    public GameObject cam; /*!< Objet representant la camera */
 
     // Start is called before the first frame update
     void Start()

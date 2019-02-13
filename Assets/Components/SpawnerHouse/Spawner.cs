@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*! 
+ *  @brief     Script pour creer aleatoirement de nouveaux PNJ : personnage non joueur.
+ *  @author    Clement STAMEGNA
+ */
 public class Spawner : MonoBehaviour
 {
     private GameObject magicMaleNPC;
@@ -11,7 +15,7 @@ public class Spawner : MonoBehaviour
     private GameObject civilMaleNPC;
     private GameObject civilFemaleNPC;
 
-    private const float RANGE = 30.0f;
+    private const float RANGE = 30.0f; /*!< rayon de la zone de creation de PNJ */
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +29,7 @@ public class Spawner : MonoBehaviour
     }
 
     private float time = 0.0f;
-    public float period = 2f;
+    public float period = 2f; /*!< period en seconde entre la creation de PNJ */
 
     // Update is called once per frame
     void Update()

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*! 
+ *  @brief     Script pour quitter le jeu lors de l'appui de la touche B de la manette ou de la touche echap du clavier
+ *  @author    Clement STAMEGNA
+ */
 public class QuitGame : MonoBehaviour
 {
 

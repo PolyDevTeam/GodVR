@@ -2,18 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*! 
+ *  @brief     Script pour utiliser et tester les controlles a la manette
+ *  @author    Clement STAMEGNA
+ */
 public class controller : MonoBehaviour {
 
-    public GameObject A;
-    public GameObject B;
-    public GameObject Y;
-    public GameObject X;
+    public GameObject A; /*!< Objet representant la touche A de la manette */
+    public GameObject B; /*!< Objet representant la touche B de la manette */
+    public GameObject Y; /*!< Objet representant la touche Y de la manette */
+    public GameObject X; /*!< Objet representant la touche X de la manette */
 
-    public GameObject leftStick;
-    public GameObject rightStick;
+    public GameObject leftStick; /*!< Objet representant le stick gauche de la manette */
+    public GameObject rightStick; /*!< Objet representant le stick droit de la manette */
 
-    private Vector3 initPosLeft;
-    private Vector3 initPosRight;
+    private Vector3 initPosLeft; /*!< Position initiale du stick gauche */
+    private Vector3 initPosRight; /*!< Position initiale du stick droit */
 
     // Use this for initialization
     void Start () {

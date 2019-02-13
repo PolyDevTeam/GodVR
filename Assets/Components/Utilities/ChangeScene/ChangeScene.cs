@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*! 
+ *  @brief     Script permettant le changement de scene Unity
+ *  @author    Clement STAMEGNA
+ */
 public class ChangeScene : MonoBehaviour
 {
     /*! 

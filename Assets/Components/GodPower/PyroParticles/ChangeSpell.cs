@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*! 
+ *  @brief     Script pour changer de pouvoir.
+ *  @author    Clement STAMEGNA
+ */
 public class ChangeSpell : MonoBehaviour
 {
-    public GameObject spellText;
+    public GameObject spellText; /*!< Objet pour représenter le nom du pouvoir a afficher */
 
-    public GameObject spell0;
-    public GameObject spell1;
+    public GameObject spell0; /*!< le premier pouvoir */
+    public GameObject spell1; /*!< le deuxieme pouvoir */
 
-    public GameObject spellLauncher;
-    public GameObject viseur;
+    public GameObject spellLauncher; /*!< Objet pour représenter l objet qui va lancer les sorts */
+    public GameObject viseur; /*!< Objet pour représenter le viseur lorsque nous utilisons certains pouvoir */
 
     private List<GameObject> spellList;
 
