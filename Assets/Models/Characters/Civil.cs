@@ -1,9 +1,23 @@
-﻿using System.Collections;
+﻿/**
+ * @file Civil.cs
+ * @brief IA des PNJ civils
+ * @author Guillaume MICHON
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * @class Civil
+ * @brief IA des PNJ civils
+ */
 public class Civil : NPC
 {
+    /**
+     * @enum Tasks
+     * @brief Listes des tâches que peut faire un Civil
+     */
     new enum Tasks
     {
         MOVE_RANDOM = 1,
@@ -29,6 +43,10 @@ public class Civil : NPC
         base.Update();
     }
 
+    /**
+     * @fn void Craft()
+     * @brief Crée un arbre à la position du Farmer
+     */
     public void Craft()
     {
         base.Standing();
@@ -37,12 +55,20 @@ public class Civil : NPC
         //Instantiate(TreePrefab, transform.position, transform.rotation);
     }
 
+    /**
+     * @fn void Fight()
+     * @brief Combat le PNJ le plus proche
+     */
     public void Fight()
     {
         GameObject opponentObject = GetClosestObject("NPC");
         base.target = opponentObject;
     }
 
+    /**
+     * @fn void ChoiceTask()
+     * @brief Choisi une tache au hasard et l'execute
+     */
     protected override void ChoiceTask()
     {
         Tasks task = (Tasks)Random.Range(1, Tasks.GetNames(typeof(Tasks)).Length + 1);

@@ -1,10 +1,23 @@
-﻿using System.Collections;
+﻿/**
+ * @file Magic.cs
+ * @brief IA des PNJ magiciens
+ * @author Guillaume MICHON
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * @class Magic
+ * @brief IA des PNJ magiciens
+ */
 public class Magic : NPC
 {
-    // Mediter : de temps en temps, a voir
+    /**
+     * @enum Tasks
+     * @brief Listes des tâches que peut faire un Magic
+     */
     new enum Tasks
     {
         MOVE_RANDOM = 1,
@@ -24,6 +37,10 @@ public class Magic : NPC
         base.Update();
     }
 
+    /**
+     * @fn void ChoiceTask()
+     * @brief Choisi une tache au hasard et l'execute
+     */
     protected override void ChoiceTask()
     {
         Tasks task = (Tasks)Random.Range(1, Tasks.GetNames(typeof(Tasks)).Length + 1);
