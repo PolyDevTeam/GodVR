@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['monochrome',['monochrome',['../class_unity_standard_assets_1_1_image_effects_1_1_noise_and_scratches.html#a515c34ae0514bdfe1e371ea784e6b060',1,'UnityStandardAssets::ImageEffects::NoiseAndScratches']]]
+  ['grainsize',['grainSize',['../class_unity_standard_assets_1_1_image_effects_1_1_noise_and_scratches.html#a98dcca804b05a811dadb1c8b574a9b5d',1,'UnityStandardAssets::ImageEffects::NoiseAndScratches']]]
 ];

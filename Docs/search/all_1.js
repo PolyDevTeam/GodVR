@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['b',['B',['../classcontroller.html#abe336dc07c55ec8fe07a9b1b4844b767',1,'controller']]],
   ['bloom',['Bloom',['../class_unity_standard_assets_1_1_image_effects_1_1_bloom.html',1,'UnityStandardAssets::ImageEffects']]],
   ['bloomandflares',['BloomAndFlares',['../class_unity_standard_assets_1_1_image_effects_1_1_bloom_and_flares.html',1,'UnityStandardAssets::ImageEffects']]],
   ['bloomoptimized',['BloomOptimized',['../class_unity_standard_assets_1_1_image_effects_1_1_bloom_optimized.html',1,'UnityStandardAssets::ImageEffects']]],
