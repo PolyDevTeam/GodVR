@@ -39,12 +39,17 @@ maison qui va créer des entités.
 * ## Contrôles
 
 	* bouton A : 
-    sur le menu principale -> lancer le jeu
-    dans le jeu -> lancer un sort
+    sur le menu principale -> lancer le jeu | dans le jeu -> lancer un sort
 
     * bouton B :
-    sur le menu principale -> quittez le jeu
-    dans le jeu -> quittez le jeu
+    sur le menu principale -> quittez le jeu | dans le jeu -> quittez le jeu
 
     * croix directionelle :
     dans le jeu -> changer de sort
+    
+* ## Comment Compiler
+
+	* télécharger le projet
+	* ouvrer le projet avec Unity 2018.3.1f
+	* dans le menu de build séléctionner PC
+	* Compiler le Jeu
